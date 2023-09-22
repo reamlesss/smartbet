@@ -12,6 +12,8 @@ body{
     align-items: center;
     gap: 120px;
     animation: slideDown 1s;
+
+    animation-fill-mode: forwards;
     
 }
 .nav-logo{
@@ -90,6 +92,8 @@ body{
 .button02{
     margin-bottom: 5vw;
      animation: scaleUp 2s;
+
+    animation-fill-mode: forwards;
   
 }
 .mid-container{
@@ -135,18 +139,22 @@ body{
     position: relative;
 }
 .graph{
-animation: slideLeft 2s;
-/* animation-timeline: view(flex);
-    animation-fill-mode: forwards; */
+    animation: slideLeft 2s;
+
+    animation-fill-mode: forwards;
 }
 .plan{
     animation: slideRight 2s;
+
+    animation-fill-mode: forwards;
     /* animation-timeline: view(flex);
     animation-fill-mode: forwards; */
 }
 .secure{
     position: relative;
     animation: slideLeft 2s;
+
+    animation-fill-mode: forwards;
     /* animation-timeline: view(flex); */
     /* animation-fill-mode: forwards; */
 
