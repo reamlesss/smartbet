@@ -4,6 +4,17 @@ body{
 
     
 }
+
+.hidden{
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+.show{
+    opacity: 1;
+    transform: translateX(0px);
+
+}
 .navbar{
     display: flex;
     flex-direction: row;
@@ -139,22 +150,23 @@ body{
     position: relative;
 }
 .graph{
-    animation: slideLeft 2s;
+    
+    /* animation: slideLeft 2s;
 
-    animation-fill-mode: forwards;
+    animation-fill-mode: forwards; */
 }
 .plan{
-    animation: slideRight 2s;
+    /* animation: slideRight 2s; */
 
-    animation-fill-mode: forwards;
+    /* animation-fill-mode: forwards; */
     /* animation-timeline: view(flex);
     animation-fill-mode: forwards; */
 }
 .secure{
     position: relative;
-    animation: slideLeft 2s;
+    /* animation: slideLeft 2s; */
 
-    animation-fill-mode: forwards;
+    /* animation-fill-mode: forwards; */
     /* animation-timeline: view(flex); */
     /* animation-fill-mode: forwards; */
 
