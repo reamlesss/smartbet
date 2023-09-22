@@ -5,15 +5,38 @@ body{
     
 }
 
-.hidden{
+.hidden-left{
     
     transform: translateX(-100%);
     transition: all 2s;
 }
-.show{
+.slide-left{
     transform: translateX(0px);
 
 }
+.hidden-right{
+    transform: translateX(100%);
+    transition: all 2s;
+}
+.slide-right{
+    transform: translateX(0%);
+}
+.hidden-scale{
+    transform:scale(0%);
+    transition: all 2s;
+}
+.scaleUp{
+    transform:scale(100%);
+}
+.hidden-down{
+    transform: translateY(100%);
+    transition: all 2s;
+}
+.slide-up{
+    transform: translateY(0%);
+}
+
+
 .navbar{
 
     display: flex;
