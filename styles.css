@@ -1,7 +1,7 @@
 body{
     background: rgb(55,56,55);
     background: radial-gradient(circle, rgba(55,56,55,1) 0%, rgba(0,0,0,1) 100%);
-
+    
     
 }
 
@@ -21,9 +21,9 @@ body{
     justify-items: center;
     align-items: center;
     gap: 120px;
-    animation: slideDown 1s;
+    /* animation: slideDown 1s; */
 
-    animation-fill-mode: forwards;
+    /* animation-fill-mode: forwards; */
     
 }
 .nav-logo{
@@ -41,7 +41,7 @@ body{
     width: 60%;
     height: 70;
     position: relative;
-    animation: slideLeft 2s;
+    /* animation: slideLeft 2s; */
 }
 .container-1{
     margin-top: 15vw; 
@@ -57,8 +57,8 @@ body{
     font-size: 12px;
     /* animation: slideLeft 1s;  */
     /* animation: scaleUp 2s; */
-     animation: slideRight 1s;
-    animation-fill-mode: forwards; 
+     /* animation: slideRight 1s; */
+    /* animation-fill-mode: forwards;  */
 }
 .cont1-label{
     color: white;
@@ -70,8 +70,8 @@ body{
     margin-bottom: 2vw;
     /* animation: slideLeft 1s;  */
     /* animation: scaleUp 2s; */
- animation: slideRight 1s; 
-    animation-fill-mode: forwards; 
+ /* animation: slideRight 1s; 
+    animation-fill-mode: forwards;  */
 }
 .cont1{
     margin-top: 15vw;
@@ -96,14 +96,14 @@ body{
 }
 .button01{
     width: 120px;
-     animation: scaleUp 2s; 
-    animation-fill-mode: forwards; 
+     /* animation: scaleUp 2s;  */
+    /* animation-fill-mode: forwards;  */
 }
 .button02{
     margin-bottom: 5vw;
-     animation: scaleUp 2s;
+     /* animation: scaleUp 2s; */
 
-    animation-fill-mode: forwards;
+    /* animation-fill-mode: forwards; */
   
 }
 .mid-container{
