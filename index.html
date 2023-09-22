@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <link type="text/css" rel="stylesheet" href="./styles.css">
+    <title>Smartbet</title>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <img  src='./images/logo.png' alt="logo" class="nav-logo">
+        </div>
+    </header>
+    <div class="container-1">
+        <img src='/images/iphone1.png' alt="iphone01" class="iphone01">
+        <div class="cont1">
+          <div class="cont1-label">Kdo jsme?</div>
+        <div class="cont1-text">Jsme první sázkové poradenství, které funguje díky umělé inteligenci. Která byla naprogramována našimi IT specialisty a analitiky. Díky naší umělé inteligenci generujeme sázkové přílezitosti s neomylnou úspěšností.</div>
+        <button class="button01 button">Přidej se</button>
+    </div>
+    </div>
+    <div class="mid-container">
+    <div class="mid-label">ÚSPĚSNOST NAŠEHO AI MODELU</div>
+    <div class="mid-text">CO NÁS ODLIŠUJE OD OSTATNÍCH? KOMBINUJEME POKROČILÉ ALGORITMY, UMĚLOU INTELIGENCI A ROZSÁHLOU DATABÁZI SPORTOVNÍCH INFORMACÍ, KDY NAŠE AI VYGENERUJE SPORTOVNÍ PREDIKCI, KTERÁ MÁ NEOMYLNOU ÚSPĚŠNOST. NAŠI ODBORNÍCI MAJÍ DLOUHOLETÉ ZKUŠENOSTI V OBLASTI SÁZENÍ A SPORTOVNÍCH ANALÝZ A TO NÁM UMOŽŇUJE PŘEDPOVÍDAT VÝSLEDKY S VYSOKOU MÍROU ÚSPĚŠNOSTI.</div>
+</div>
+    <div class="container-2">
+    <img src='./images/graph.png' class="graph">
+    <img src="./images/plan.png" class="plan">
+    <img src="./images/secure.png" class="secure" data-animate>
+    <button class="button button02">Přidej se</button>
+    </div>
+    <div class="container-3">
+        <div class="cont3-text" loading="lazy">Pracuj s námi na tvém pasivním příjmu!</div>
+        <img src="./images/iphone02.png" alt="iphone03" class="iphone03" loading="lazy">
+    </div>
+   <div class="swiper">
+      <div class="swiper-wrapper">
+          <img class="swiper-slide" src="./images/review01.png">
+          <img class="swiper-slide" src="./images/review02.png">
+          <img class="swiper-slide" src="./images/review03.png">
+      </div>
+   </div>
+   <div class="container-5">
+   <img src="./images/swipernav.png" class="swiper-nav">
+  </div>
+  
+  <div class="calc-container">
+    <div class="calc-header">Kalkulačka</div>
+    <div class="input-container">
+      <!-- <label for="capital" class="calc-capital">Váš kapitál: </label> -->
+      <input type="number" id="capital" min="0" step="1" class="calc-input" placeholder="Váš kapitál: ">
+      <select id="currency" onchange="toggleCurrency()" class="calc-currency">
+        <option value="czk">Kč</option>
+        <option value="eur">€</option>
+      </select>
+    </div>
+    <button onclick="calculate()" class="calc-button button">Vypočítat zisk</button>
+  
+    <p id="result" class="result"></p>
+    <a id="membership-link" class="membership-button" href="#" target="_blank" style="display: none;"><button class="button03 button">Vyzkoušej pouze za 99 Kč</button></a>
+  
+  </div>
+  <div class="bottom-container">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto, exercitati</div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    
+    <script src="./script.js"></script>
+
+    
+</body>
+</html>
