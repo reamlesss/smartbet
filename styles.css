@@ -11,7 +11,7 @@ body{
     justify-items: center;
     align-items: center;
     gap: 120px;
-    /* animation: slideDown 1s ; */
+    animation: slideDown 1s;
     
 }
 .nav-logo{
@@ -29,7 +29,7 @@ body{
     width: 60%;
     height: 70;
     position: relative;
-    /* animation: slideLeft 2s; */
+    animation: slideLeft 2s;
 }
 .container-1{
     margin-top: 15vw; 
@@ -45,8 +45,8 @@ body{
     font-size: 12px;
     /* animation: slideLeft 1s;  */
     /* animation: scaleUp 2s; */
-    /* animation: slideRight 1s;
-    animation-fill-mode: forwards; */
+     animation: slideRight 1s;
+    animation-fill-mode: forwards; 
 }
 .cont1-label{
     color: white;
@@ -58,8 +58,8 @@ body{
     margin-bottom: 2vw;
     /* animation: slideLeft 1s;  */
     /* animation: scaleUp 2s; */
-    /* animation: slideRight 1s;
-    animation-fill-mode: forwards; */
+ animation: slideRight 1s; 
+    animation-fill-mode: forwards; 
 }
 .cont1{
     margin-top: 15vw;
@@ -84,13 +84,13 @@ body{
 }
 .button01{
     width: 120px;
-    /* animation: scaleUp 2s;
-    animation-fill-mode: forwards; */
+     animation: scaleUp 2s; 
+    animation-fill-mode: forwards; 
 }
 .button02{
     margin-bottom: 5vw;
-    /* animation: scaleUp 2s;
-    animation-timeline: view(flex); */
+     animation: scaleUp 2s;
+  
 }
 .mid-container{
     margin-top: 15vw;
@@ -135,18 +135,18 @@ body{
     position: relative;
 }
 .graph{
-/* animation: slideLeft 2s; */
+animation: slideLeft 2s;
 /* animation-timeline: view(flex);
     animation-fill-mode: forwards; */
 }
 .plan{
-    /* animation: slideRight 2s; */
+    animation: slideRight 2s;
     /* animation-timeline: view(flex);
     animation-fill-mode: forwards; */
 }
 .secure{
     position: relative;
-    /* animation: slideLeft 2s; */
+    animation: slideLeft 2s;
     /* animation-timeline: view(flex); */
     /* animation-fill-mode: forwards; */
 
@@ -159,6 +159,11 @@ body{
 }
 .cont3-text{
     color: white;
+    /* background-color: #2c2c2c; */
+    border-radius: 10px;
+    /* box-shadow: 0px 0px 100px #00f000; */
+    /* border: 1px solid #00f000; */
+    width: 200px;
     font-family: 'Bebas Neue', sans-serif;
     text-align: center;
     align-self: center;
